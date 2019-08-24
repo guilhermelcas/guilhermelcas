@@ -1,0 +1,135 @@
+body{
+    background-image: url(fundo.png);
+    padding: 15px;
+} 
+.topo{
+    margin: 0px;
+    max-width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.topo img{
+ position: relative;
+    width: 1302px;
+    right: 152px;
+
+
+}
+#menu{
+    width: 100%;
+    height: 25px;
+    background-color:white ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+    ul{
+        list-style: none;
+        position: relative;
+        color: white; 
+    }
+        ul li{
+            float: right;
+            padding: 3px 10px;
+        }
+        ul li:hover{
+            background-color:white;
+            color: white;
+        }
+
+        ul li ul{
+            list-style: none;
+            position: absolute;
+            margin-left: -30px;
+            display: none;
+        }
+        ul li:hover{
+            display: block;
+        }
+
+        ul li ul{
+            float:none;
+            width:150px;
+            background-color:white;
+            color:white;
+        }
+
+.sobre{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    color: white;
+    text-align: left;
+
+}  
+.texto-sobre{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(59, 15, 85);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    width: 1000px;
+    border-width: medium;
+    border-style: solid;
+    border-color:white;
+}
+
+.habilidades{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    color: white;
+    text-align: left;
+}
+.design{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:green;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    transition: 3s; 
+    width:80%;
+    border-radius: 25px;
+}
+.front-end{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(197, 158, 28);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    transition: 3s;
+    width: 35%;
+    border-radius: 25px;
+}
+.back-end{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(197, 39, 28);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    transition: 3s;
+    width: 20%;
+    border-radius: 25px;
+}
+.contato{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    color: white;
+}
+.wtpp-vetor{
+    max-width: 60px;    
+}
+.gmail-vetor{
+    max-width: 60px;
+}
+.inst-vetor{
+    max-width: 60px;
+}
+.rodape{
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid grey;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    margin-top: 50px;
+}
